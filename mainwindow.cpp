@@ -13,8 +13,9 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::on_pvp_btn_clicked()
 {
-
+    int currentIndex = ui->stackedWidget->currentIndex();
+    ui->stackedWidget->setCurrentIndex(currentIndex + 1);
 }
 
