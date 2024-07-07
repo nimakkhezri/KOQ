@@ -22,14 +22,14 @@ void MainWindow::on_pvp_btn_clicked()
 }
 
 
-void MainWindow::on_submit_btn_clicked()
+void MainWindow::on_pvp_submit_btn_clicked()
 {
     int currentIndex = ui->stackedWidget->currentIndex();
     ui->stackedWidget->setCurrentIndex(currentIndex + 1);
 }
 
 
-void MainWindow::on_Start_btn_clicked()
+void MainWindow::on_pvp_start_btn_clicked()
 {
     int currentIndex = ui->stackedWidget->currentIndex();
     ui->stackedWidget->setCurrentIndex(currentIndex + 1);

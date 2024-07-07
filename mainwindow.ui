@@ -252,7 +252,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="submit_btn">
+          <widget class="QPushButton" name="pvp_submit_btn">
            <property name="text">
             <string>Submit</string>
            </property>
@@ -333,7 +333,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <string>Current Turn:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QLineEdit" name="pvp_turn_showcase">
       <property name="geometry">
        <rect>
         <x>170</x>
@@ -346,7 +346,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="pvp_category_selection">
       <property name="geometry">
        <rect>
         <x>170</x>
@@ -512,21 +512,21 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QRadioButton" name="radioButton_5">
+         <widget class="QRadioButton" name="pvp_easy_btn">
           <property name="text">
            <string>Easy</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_6">
+         <widget class="QRadioButton" name="pvp_medium_btn">
           <property name="text">
            <string>Medium</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_7">
+         <widget class="QRadioButton" name="pvp_hard_btn">
           <property name="text">
            <string>Hard</string>
           </property>
@@ -559,7 +559,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="Start_btn">
+        <widget class="QPushButton" name="pvp_start_btn">
          <property name="text">
           <string>Start</string>
          </property>
@@ -582,7 +582,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </widget>
     </widget>
     <widget class="QWidget" name="p4">
-     <widget class="QTextEdit" name="textEdit">
+     <widget class="QTextEdit" name="pvp_question_showcase">
       <property name="geometry">
        <rect>
         <x>60</x>
@@ -608,7 +608,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <string>Question:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="pvp_difficulty_showcase">
       <property name="geometry">
        <rect>
         <x>440</x>
@@ -616,6 +616,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <width>181</width>
         <height>24</height>
        </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLabel" name="label_2">
@@ -644,7 +647,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <string>Category:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="pvp_category_showcase">
       <property name="geometry">
        <rect>
         <x>120</x>
@@ -652,6 +655,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <width>181</width>
         <height>24</height>
        </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QGroupBox" name="groupBox">
@@ -677,28 +683,28 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QRadioButton" name="radioButton">
+         <widget class="QRadioButton" name="pvp_op1_btn">
           <property name="text">
            <string>RadioButton</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_2">
+         <widget class="QRadioButton" name="pvp_op2_btn">
           <property name="text">
            <string>RadioButton</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_3">
+         <widget class="QRadioButton" name="pvp_op3_btn">
           <property name="text">
            <string>RadioButton</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_4">
+         <widget class="QRadioButton" name="pvp_op4_btn">
           <property name="text">
            <string>RadioButton</string>
           </property>
@@ -739,7 +745,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <string>Turn:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
+     <widget class="QLineEdit" name="pvp_turn_showcase2">
       <property name="geometry">
        <rect>
         <x>720</x>
@@ -747,6 +753,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <width>181</width>
         <height>24</height>
        </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
      </widget>
     </widget>
