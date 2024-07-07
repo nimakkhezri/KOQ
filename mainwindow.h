@@ -22,6 +22,8 @@ private slots:
 
     void on_submit_btn_clicked();
 
+    void on_Start_btn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

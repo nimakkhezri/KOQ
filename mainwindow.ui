@@ -320,6 +320,268 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </widget>
     </widget>
     <widget class="QWidget" name="p3">
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>90</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Current Turn:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>90</y>
+        <width>211</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>140</y>
+        <width>211</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>General Knowledge</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Books</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Film</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Music</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Musicals &amp; Theatres</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Television</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Video Games</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Board Games</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Science &amp; Nature</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Science: Computers</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Science: Mathematics</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mythology</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sports</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Geography</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>History</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Politics</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Art</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Celebrities</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Animals</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Vehicles</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Comics</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Science: Gadgets</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Japanese Anime &amp; Manga</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Entertainment: Cartoon &amp; Animations</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>150</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Category:</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>60</y>
+        <width>141</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Difficulty</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>121</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QRadioButton" name="radioButton_5">
+          <property name="text">
+           <string>Easy</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_6">
+          <property name="text">
+           <string>Medium</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_7">
+          <property name="text">
+           <string>Hard</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>220</y>
+        <width>691</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <spacer name="horizontalSpacer_13">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Start_btn">
+         <property name="text">
+          <string>Start</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_12">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="p4">
      <widget class="QTextEdit" name="textEdit">
       <property name="geometry">
        <rect>

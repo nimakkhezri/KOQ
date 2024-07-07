@@ -28,3 +28,11 @@ void MainWindow::on_submit_btn_clicked()
     ui->stackedWidget->setCurrentIndex(currentIndex + 1);
 }
 
+
+void MainWindow::on_Start_btn_clicked()
+{
+    int currentIndex = ui->stackedWidget->currentIndex();
+    ui->stackedWidget->setCurrentIndex(currentIndex + 1);
+    QMessageBox::information(this, "Start Round", "Are you ready?");
+}
+
