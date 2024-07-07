@@ -560,6 +560,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </item>
        <item>
         <widget class="QPushButton" name="pvp_start_btn">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
          <property name="text">
           <string>Start</string>
          </property>
@@ -782,8 +785,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>330</x>
-     <y>313</y>
+     <x>528</x>
+     <y>558</y>
     </hint>
     <hint type="destinationlabel">
      <x>651</x>

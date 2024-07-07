@@ -2,63 +2,63 @@
     "response_code": 0,
     "results": [
         {
-            "category": "History",
-            "correct_answer": "Turkey",
-            "difficulty": "easy",
+            "category": "General Knowledge",
+            "correct_answer": "A flag",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Syria",
-                "Greece",
-                "Egypt"
+                "A rope",
+                "A window",
+                "A type of food"
             ],
-            "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+            "question": "What is a Burgee?",
             "type": "multiple"
         },
         {
-            "category": "History",
-            "correct_answer": "6 years",
-            "difficulty": "easy",
+            "category": "General Knowledge",
+            "correct_answer": "Wasabi ",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "4 years",
-                "5 years",
-                "7 years"
+                "Mentsuyu",
+                "Karashi",
+                "Ponzu"
             ],
-            "question": "How long did World War II last?",
+            "question": "Which essential condiment is also known as Japanese horseradish?",
             "type": "multiple"
         },
         {
-            "category": "History",
-            "correct_answer": "1990",
-            "difficulty": "easy",
+            "category": "General Knowledge",
+            "correct_answer": "Daigaku",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "1992",
-                "1988",
-                "1986"
+                "Toshokan",
+                "Jimusho",
+                "Shokudou"
             ],
-            "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+            "question": "What is the romanized Japanese word for &quot;university&quot;?",
             "type": "multiple"
         },
         {
-            "category": "History",
-            "correct_answer": "Paul Revere",
-            "difficulty": "easy",
+            "category": "General Knowledge",
+            "correct_answer": "Hats",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Thomas Paine",
-                "Henry Longfellow",
-                "Nathan Hale"
+                "Shoes",
+                "Belts",
+                "Shirts"
             ],
-            "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+            "question": "What does a milliner make and sell?",
             "type": "multiple"
         },
         {
-            "category": "History",
-            "correct_answer": "Ceylon",
-            "difficulty": "easy",
+            "category": "General Knowledge",
+            "correct_answer": "Aquarius",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Myanmar",
-                "Colombo",
-                "Badulla"
+                "Pisces",
+                "Capricorn",
+                "Scorpio"
             ],
-            "question": "What is the historical name of Sri Lanka?",
+            "question": "What is the star sign of someone born on Valentines day?",
             "type": "multiple"
         }
     ]
