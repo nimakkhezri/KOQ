@@ -3,62 +3,62 @@
     "results": [
         {
             "category": "General Knowledge",
-            "correct_answer": "A flag",
+            "correct_answer": "Ampersand",
             "difficulty": "medium",
             "incorrect_answers": [
-                "A rope",
-                "A window",
-                "A type of food"
+                "Interrobang",
+                "Tilde",
+                "Pilcrow"
             ],
-            "question": "What is a Burgee?",
+            "question": "What character was once considered to be the 27th letter of the alphabet?",
             "type": "multiple"
         },
         {
             "category": "General Knowledge",
-            "correct_answer": "Wasabi ",
-            "difficulty": "medium",
+            "correct_answer": "Green",
+            "difficulty": "easy",
             "incorrect_answers": [
-                "Mentsuyu",
-                "Karashi",
-                "Ponzu"
+                "Red",
+                "Blue",
+                "Yellow"
             ],
-            "question": "Which essential condiment is also known as Japanese horseradish?",
+            "question": "When someone is inexperienced they are said to be what color?",
             "type": "multiple"
         },
         {
             "category": "General Knowledge",
-            "correct_answer": "Daigaku",
+            "correct_answer": "Hewlett-Packard",
             "difficulty": "medium",
             "incorrect_answers": [
-                "Toshokan",
-                "Jimusho",
-                "Shokudou"
+                "Toshiba",
+                "Asus",
+                "Dell"
             ],
-            "question": "What is the romanized Japanese word for &quot;university&quot;?",
+            "question": "Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?",
             "type": "multiple"
         },
         {
             "category": "General Knowledge",
-            "correct_answer": "Hats",
-            "difficulty": "medium",
+            "correct_answer": "The Company",
+            "difficulty": "easy",
             "incorrect_answers": [
-                "Shoes",
-                "Belts",
-                "Shirts"
+                "Planet Scrap Co.",
+                "Lethal Robotics",
+                "Gordian Shipping Co."
             ],
-            "question": "What does a milliner make and sell?",
+            "question": "What is the name of the company in Lethal Company?",
             "type": "multiple"
         },
         {
             "category": "General Knowledge",
-            "correct_answer": "Aquarius",
-            "difficulty": "medium",
+            "correct_answer": "Subscriber",
+            "difficulty": "easy",
             "incorrect_answers": [
-                "Pisces",
-                "Capricorn",
-                "Scorpio"
+                "Single",
+                "Secure",
+                "Solid"
             ],
-            "question": "What is the star sign of someone born on Valentines day?",
+            "question": "What does the &#039;S&#039; stand for in the abbreviation SIM, as in SIM card? ",
             "type": "multiple"
         }
     ]

@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "PVPGame.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -25,6 +26,7 @@ private slots:
     void on_pvp_start_btn_clicked();
 
 private:
+    PVPGame pvpgame;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

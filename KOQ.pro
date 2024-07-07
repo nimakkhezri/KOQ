@@ -10,6 +10,8 @@ CONFIG += c++17
 
 SOURCES += \
     Category.cpp \
+    PVPGame.cpp \
+    Player.cpp \
     Question.cpp \
     TriviaAPI.cpp \
     main.cpp \
@@ -17,6 +19,8 @@ SOURCES += \
 
 HEADERS += \
     Category.h \
+    PVPGame.h \
+    Player.h \
     Question.h \
     TriviaAPI.h \
     mainwindow.h
