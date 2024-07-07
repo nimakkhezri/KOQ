@@ -1,0 +1,65 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "History",
+            "correct_answer": "Turkey",
+            "difficulty": "easy",
+            "incorrect_answers": [
+                "Syria",
+                "Greece",
+                "Egypt"
+            ],
+            "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "6 years",
+            "difficulty": "easy",
+            "incorrect_answers": [
+                "4 years",
+                "5 years",
+                "7 years"
+            ],
+            "question": "How long did World War II last?",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "1990",
+            "difficulty": "easy",
+            "incorrect_answers": [
+                "1992",
+                "1988",
+                "1986"
+            ],
+            "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "Paul Revere",
+            "difficulty": "easy",
+            "incorrect_answers": [
+                "Thomas Paine",
+                "Henry Longfellow",
+                "Nathan Hale"
+            ],
+            "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "Ceylon",
+            "difficulty": "easy",
+            "incorrect_answers": [
+                "Myanmar",
+                "Colombo",
+                "Badulla"
+            ],
+            "question": "What is the historical name of Sri Lanka?",
+            "type": "multiple"
+        }
+    ]
+}

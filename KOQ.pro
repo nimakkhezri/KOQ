@@ -9,14 +9,26 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Category.cpp \
+    Question.cpp \
+    TriviaAPI.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    Category.h \
+    Question.h \
+    TriviaAPI.h \
     mainwindow.h
 
 FORMS += \
     mainwindow.ui
+
+INCLUDEPATH += \
+    "C:\vcpkg\installed\x64-windows\include"
+
+LIBS += \
+    -L"C:\vcpkg\installed\x64-windows\lib" -lcurl
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
