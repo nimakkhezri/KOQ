@@ -59,6 +59,21 @@ bool MainWindow::get_answers(const Question& question) {
     }
 }
 
+void MainWindow::options_visibility(bool visibility) {
+    if (visibility) {
+        ui->pvp_op1_btn->show();
+        ui->pvp_op2_btn->show();
+        ui->pvp_op3_btn->show();
+        ui->pvp_op4_btn->show();
+    }
+    else {
+        ui->pvp_op1_btn->hide();
+        ui->pvp_op2_btn->hide();
+        ui->pvp_op3_btn->hide();
+        ui->pvp_op4_btn->hide();
+    }
+}
+
 void MainWindow::on_pvp_btn_clicked()
 {
     int currentIndex = ui->stackedWidget->currentIndex();
@@ -96,12 +111,16 @@ void MainWindow::on_pvp_start_btn_clicked()
     QString text = "It's " + pvpgame.get_currentPlayer()->get_name() + "'s Turn ...\nIf you are ready click the Start button!";
     ui->pvp_question_showcase->setText(text);
     ui->pvp_turn_showcase2->setText(pvpgame.get_currentPlayer()->get_name());
+    ui->pvp_category_showcase->setText("");
+    ui->pvp_difficulty_showcase->setText("");
+    options_visibility(false);
 }
 
 void MainWindow::on_pvp_question_btn_clicked()
 {
     clicked++;
     if (clicked == 1) {
+        options_visibility(true);
         Question currentQuestion = pvpgame.get_currentQuestions()[clicked - 1];
         set_currentQuestion(currentQuestion);
         ui->pvp_question_btn->setText("Next");
@@ -129,10 +148,7 @@ void MainWindow::on_pvp_question_btn_clicked()
         } else {
             QString text = "It's " + pvpgame.get_currentPlayer()->get_name() + "'s Turn ...\nIf you are ready click the Start button!";
             ui->pvp_question_showcase->setText(text);
-            ui->pvp_op1_btn->setText("Option 1");
-            ui->pvp_op2_btn->setText("Option 2");
-            ui->pvp_op3_btn->setText("Option 3");
-            ui->pvp_op4_btn->setText("Option 4");
+            options_visibility(false);
             ui->pvp_turn_showcase2->setText(pvpgame.get_currentPlayer()->get_name());
             QMessageBox::information(this, "End Turn", "End of the turn ...\nNow it is " + pvpgame.get_currentPlayer()->get_name() + "'s turn!");
         }

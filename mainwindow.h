@@ -36,5 +36,6 @@ private:
     void set_options(const Question& question);
     void set_currentQuestion(const Question& question);
     bool get_answers(const Question& question);
+    void options_visibility(bool visibility);
 };
 #endif // MAINWINDOW_H

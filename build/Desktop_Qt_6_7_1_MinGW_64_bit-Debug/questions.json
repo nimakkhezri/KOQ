@@ -2,63 +2,63 @@
     "response_code": 0,
     "results": [
         {
-            "category": "Entertainment: Board Games",
-            "correct_answer": "7",
+            "category": "General Knowledge",
+            "correct_answer": "Omega",
             "difficulty": "medium",
             "incorrect_answers": [
-                "3",
-                "10",
-                "1"
+                "Mu",
+                "Epsilon",
+                "Kappa"
             ],
-            "question": "In the Board Game, Settlers of Catan, a die roll of what number causes the Robber to attack? ",
+            "question": "What is the last letter of the Greek alphabet?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Board Games",
-            "correct_answer": "Blinkmoth Infusion",
+            "category": "General Knowledge",
+            "correct_answer": "Pomodoro",
             "difficulty": "medium",
             "incorrect_answers": [
-                "Vitalizing Wind",
-                " Chant of Vitu-Ghazi",
-                "Assert Authority"
+                "Aglio",
+                "Cipolla",
+                "Peperoncino"
             ],
-            "question": "In &quot;Magic: The Gathering&quot;, what instant card has the highest converted mana cost?",
+            "question": "What is the Italian word for &quot;tomato&quot;?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Board Games",
-            "correct_answer": "Go",
+            "category": "General Knowledge",
+            "correct_answer": "Peace",
             "difficulty": "medium",
             "incorrect_answers": [
-                "Chess",
-                "Mahjong",
-                "Shogi"
+                "Physics",
+                "Economics",
+                "Physiology/Medicine"
             ],
-            "question": "Which of the following tabletop games is the oldest?",
+            "question": "Linus Pauling, one of the only winners of multiple Nobel Prizes, earned his Nobel Prizes in Chemistry and what?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Board Games",
-            "correct_answer": "The Gatekeeper",
+            "category": "General Knowledge",
+            "correct_answer": "Southeast",
             "difficulty": "medium",
             "incorrect_answers": [
-                "The Kryptkeeper",
-                "The Monster",
-                "The Nightmare"
+                "Southwest",
+                "Northwest",
+                "Northeast"
             ],
-            "question": "Who is the main character in the VHS tape included in the board game Nightmare?",
+            "question": "What direction does the Statue of Liberty face?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Board Games",
-            "correct_answer": "10",
+            "category": "General Knowledge",
+            "correct_answer": "Aquarius",
             "difficulty": "medium",
             "incorrect_answers": [
-                "8",
-                "5",
-                "6"
+                "Pisces",
+                "Capricorn",
+                "Scorpio"
             ],
-            "question": "How many points is the Z tile worth in Scrabble?",
+            "question": "What is the star sign of someone born on Valentines day?",
             "type": "multiple"
         }
     ]
