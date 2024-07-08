@@ -338,7 +338,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <rect>
         <x>170</x>
         <y>150</y>
-        <width>211</width>
+        <width>231</width>
         <height>24</height>
        </rect>
       </property>
@@ -351,7 +351,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <rect>
         <x>170</x>
         <y>210</y>
-        <width>211</width>
+        <width>231</width>
         <height>24</height>
        </rect>
       </property>
@@ -688,37 +688,37 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <item>
          <widget class="QRadioButton" name="pvp_op1_btn">
           <property name="text">
-           <string>RadioButton</string>
+           <string>Option 1</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QRadioButton" name="pvp_op2_btn">
           <property name="text">
-           <string>RadioButton</string>
+           <string>Option 2</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QRadioButton" name="pvp_op3_btn">
           <property name="text">
-           <string>RadioButton</string>
+           <string>Option 3</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QRadioButton" name="pvp_op4_btn">
           <property name="text">
-           <string>RadioButton</string>
+           <string>Option 4</string>
           </property>
          </widget>
         </item>
        </layout>
       </widget>
      </widget>
-     <widget class="QPushButton" name="next_btn">
+     <widget class="QPushButton" name="pvp_question_btn">
       <property name="enabled">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="geometry">
        <rect>
@@ -729,7 +729,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </rect>
       </property>
       <property name="text">
-       <string>Next</string>
+       <string>Start</string>
       </property>
       <property name="default">
        <bool>false</bool>
@@ -759,6 +759,101 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </property>
       <property name="readOnly">
        <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="p5">
+     <widget class="QTextBrowser" name="RoundWinner">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>100</y>
+        <width>256</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="winner_label">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>110</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Winner of the Round</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Player1_label">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>250</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Player 1:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="player1_score">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>260</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Player2_label">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>250</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Player 2:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="player2_score">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>260</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pvp_nextround_btn">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>360</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next Round</string>
       </property>
      </widget>
     </widget>

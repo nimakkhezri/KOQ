@@ -21,6 +21,7 @@ public:
     Category category_identifier(QString name);
 
     void get_questions(const Category& category,const QString& difficulty);
+    void get_questions();
 };
 
 #endif // TRIVIAAPI_H

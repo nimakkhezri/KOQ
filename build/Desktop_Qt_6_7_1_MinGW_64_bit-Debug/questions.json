@@ -2,63 +2,63 @@
     "response_code": 0,
     "results": [
         {
-            "category": "General Knowledge",
-            "correct_answer": "Ampersand",
+            "category": "Entertainment: Board Games",
+            "correct_answer": "7",
             "difficulty": "medium",
             "incorrect_answers": [
-                "Interrobang",
-                "Tilde",
-                "Pilcrow"
+                "3",
+                "10",
+                "1"
             ],
-            "question": "What character was once considered to be the 27th letter of the alphabet?",
+            "question": "In the Board Game, Settlers of Catan, a die roll of what number causes the Robber to attack? ",
             "type": "multiple"
         },
         {
-            "category": "General Knowledge",
-            "correct_answer": "Green",
-            "difficulty": "easy",
-            "incorrect_answers": [
-                "Red",
-                "Blue",
-                "Yellow"
-            ],
-            "question": "When someone is inexperienced they are said to be what color?",
-            "type": "multiple"
-        },
-        {
-            "category": "General Knowledge",
-            "correct_answer": "Hewlett-Packard",
+            "category": "Entertainment: Board Games",
+            "correct_answer": "Blinkmoth Infusion",
             "difficulty": "medium",
             "incorrect_answers": [
-                "Toshiba",
-                "Asus",
-                "Dell"
+                "Vitalizing Wind",
+                " Chant of Vitu-Ghazi",
+                "Assert Authority"
             ],
-            "question": "Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?",
+            "question": "In &quot;Magic: The Gathering&quot;, what instant card has the highest converted mana cost?",
             "type": "multiple"
         },
         {
-            "category": "General Knowledge",
-            "correct_answer": "The Company",
-            "difficulty": "easy",
+            "category": "Entertainment: Board Games",
+            "correct_answer": "Go",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Planet Scrap Co.",
-                "Lethal Robotics",
-                "Gordian Shipping Co."
+                "Chess",
+                "Mahjong",
+                "Shogi"
             ],
-            "question": "What is the name of the company in Lethal Company?",
+            "question": "Which of the following tabletop games is the oldest?",
             "type": "multiple"
         },
         {
-            "category": "General Knowledge",
-            "correct_answer": "Subscriber",
-            "difficulty": "easy",
+            "category": "Entertainment: Board Games",
+            "correct_answer": "The Gatekeeper",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Single",
-                "Secure",
-                "Solid"
+                "The Kryptkeeper",
+                "The Monster",
+                "The Nightmare"
             ],
-            "question": "What does the &#039;S&#039; stand for in the abbreviation SIM, as in SIM card? ",
+            "question": "Who is the main character in the VHS tape included in the board game Nightmare?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Board Games",
+            "correct_answer": "10",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "8",
+                "5",
+                "6"
+            ],
+            "question": "How many points is the Z tile worth in Scrabble?",
             "type": "multiple"
         }
     ]

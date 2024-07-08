@@ -2,6 +2,7 @@
 
 Player::Player() {
     this->score = 0;
+    this->turnScore = 0;
 }
 
 Player::Player(const QString& name) {
@@ -27,4 +28,16 @@ void Player::set_score(const int& score) {
 
 void Player::score_up() {
     this->score++;
+}
+
+int Player::get_turnScore() const {
+    return turnScore;
+}
+
+void Player::turnScore_up() {
+    this->turnScore++;
+}
+
+void Player::set_turnScore(const int& score) {
+    this->turnScore = score;
 }

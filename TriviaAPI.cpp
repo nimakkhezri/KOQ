@@ -44,6 +44,7 @@ Category TriviaAPI::category_identifier(QString name){
             return category;
     }
     return Category("Any", 0);
+    // Weeeeeeeee haaaaaaaaaaaaave errrrrrrrrror anime hereeeeeeeeeeeeeeeeee !!!!!!!!!!
 }
 
 
@@ -54,6 +55,34 @@ void TriviaAPI::get_questions(const Category& category, const QString& difficult
     if (curl) {
         std::string responce;
         std::string url = base_url + std::to_string(category.get_id()) + "&difficulty=" + difficulty.toStdString() + "&type=multiple";
+
+        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &responce);
+
+        CURLcode res = curl_easy_perform(curl);
+        if (res == CURLE_OK) {
+            nlohmann::json data = nlohmann::json::parse(responce);
+
+            if (file.is_open()) {
+                file << data.dump(4);
+                file.close();
+            }else{
+                qDebug() << "questions.json can't write ... ";
+            }
+        }
+
+        curl_easy_cleanup(curl);
+    }
+}
+
+void TriviaAPI::get_questions(){
+    std::ofstream file("questions.json");
+
+    CURL* curl = curl_easy_init();
+    if (curl) {
+        std::string responce;
+        std::string url = "https://opentdb.com/api.php?amount=5&type=multiple";
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);

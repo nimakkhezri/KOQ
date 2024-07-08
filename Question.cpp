@@ -1,4 +1,5 @@
 #include "Question.h"
+#include <QDebug>
 
 Question::Question() {}
 
@@ -77,4 +78,14 @@ void Question::set_correct_answer(const QString& correct_answer){
 
 void Question::set_incorrect_answers(const QVector<QString>& incorrect_answers){
     this->incorrect_answers = incorrect_answers;
+}
+
+QVector<QString> Question::get_random_answers() const {
+    QVector<QString> random_options;
+    random_options.push_back(correct_answer);
+    for(const QString& incorrect_answer : incorrect_answers){
+        random_options.push_back(incorrect_answer);
+    }
+    std::random_shuffle(random_options.begin(), random_options.end());
+    return random_options;
 }

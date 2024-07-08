@@ -1,6 +1,7 @@
 #ifndef QUESTION_H
 #define QUESTION_H
 
+#include <QtAlgorithms>>
 #include <QString>
 #include <QVector>
 #include "Category.h"
@@ -9,13 +10,15 @@ class Question
 {
 private:
     QString type, difficulty, question, correct_answer;
-    QVector<QString> incorrect_answers;
+    QVector<QString> incorrect_answers, random_answers;
     Category category;
 
 public:
     Question();
     Question(QString type, QString difficulty, QString question, QString correct_answer, const Category& category, QVector<QString> incorrect_answers);
 
+    void random_answers_gen();
+    QVector<QString> get_random_answers() const;
     QString get_type() const;
     Category get_category() const;
     QString get_difficulty() const;

@@ -25,8 +25,16 @@ private slots:
 
     void on_pvp_start_btn_clicked();
 
+    void on_pvp_question_btn_clicked();
+
+    void on_pvp_nextround_btn_clicked();
+
 private:
+    int clicked;
     PVPGame pvpgame;
     Ui::MainWindow *ui;
+    void set_options(const Question& question);
+    void set_currentQuestion(const Question& question);
+    bool get_answers(const Question& question);
 };
 #endif // MAINWINDOW_H
