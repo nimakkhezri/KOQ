@@ -4,6 +4,8 @@ SurvivalGame::SurvivalGame() {
     this->easy = 0;
     this->medium = 0;
     this->hard = 0;
+    this->health = 3;
+    this->score = 0;
     load_records();
 }
 
@@ -56,4 +58,12 @@ void SurvivalGame::set_medium_record(const int& record) {
 
 void SurvivalGame::set_hard_record(const int& record) {
     this->hard = record;
+}
+
+void SurvivalGame::check_answer(bool check) {
+    if (check) {
+        this->score++;
+    } else {
+        this->health--;
+    }
 }
