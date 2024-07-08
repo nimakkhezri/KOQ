@@ -74,6 +74,12 @@ void MainWindow::options_visibility(bool visibility) {
     }
 }
 
+void MainWindow::update_highscores() {
+    ui->easy_highscore->setText(QString::number(survivalgame.get_easy_record()));
+    ui->medium_highscore->setText(QString::number(survivalgame.get_medium_record()));
+    ui->hard_highscore->setText(QString::number(survivalgame.get_hard_record()));
+}
+
 void MainWindow::on_pvp_btn_clicked()
 {
     int currentIndex = ui->stackedWidget->currentIndex();
@@ -185,5 +191,27 @@ void MainWindow::on_pvp_nextround_btn_clicked()
         ui->stackedWidget->setCurrentIndex(currentIndex - 2);
         ui->pvp_turn_showcase->setText(pvpgame.get_currentPlayer()->get_name());
     }
+}
+
+
+void MainWindow::on_survival_btn_clicked()
+{
+    update_highscores();
+    int currentIndex = ui->stackedWidget->currentIndex();
+    ui->stackedWidget->setCurrentIndex(currentIndex + 5);
+}
+
+
+void MainWindow::on_survival_start_btn_clicked()
+{
+    QString difficulty;
+    if (ui->survival_easy_btn->isChecked()) {
+        difficulty = "easy";
+    } else if (ui->survival_medium_btn->isChecked()) {
+        difficulty = "medium";
+    } else if (ui->survival_hard_btn->isChecked()) {
+        difficulty = "hard";
+    }
+
 }
 
