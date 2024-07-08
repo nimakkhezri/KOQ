@@ -13,6 +13,7 @@ SOURCES += \
     PVPGame.cpp \
     Player.cpp \
     Question.cpp \
+    SurvivalGame.cpp \
     TriviaAPI.cpp \
     main.cpp \
     mainwindow.cpp
@@ -22,6 +23,7 @@ HEADERS += \
     PVPGame.h \
     Player.h \
     Question.h \
+    SurvivalGame.h \
     TriviaAPI.h \
     mainwindow.h
 
