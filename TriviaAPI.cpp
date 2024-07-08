@@ -104,13 +104,13 @@ void TriviaAPI::get_questions(){
     }
 }
 
-Question TriviaAPI::get_question(const QString& difficulty) {
-    Question question;
+void TriviaAPI::get_questions(const QString& difficulty) {
+    std::ofstream file("questions.json");
 
     CURL* curl = curl_easy_init();
     if (curl) {
         std::string responce;
-        std::string url = "https://opentdb.com/api.php?amount=5&type=multiple";
+        std::string url = "https://opentdb.com/api.php?amount=35&difficulty=" + difficulty.toStdString() + "&type=multiple";
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
@@ -120,25 +120,14 @@ Question TriviaAPI::get_question(const QString& difficulty) {
         if (res == CURLE_OK) {
             nlohmann::json data = nlohmann::json::parse(responce);
 
-            const auto& results = data["results"];
-            const auto& result = results[0];
-            question.set_type(result["type"]);
-            QString q_category = QString::fromStdString(result["category"]);
-            Category category = this->category_identifier(q_category);
-            question.set_category(category);
-            question.set_difficulty(result["difficulty"]);
-            question.set_question(result["question"]);
-            question.set_correct_answer(result["correct_answer"]);
-
-            QVector<QString> q_incorrect_answers;
-            for (const auto& incorrect_answer : result["incorrect_answers"]){
-                QString q_incorrect_answer = QString::fromStdString(incorrect_answer);
-                q_incorrect_answers.push_back(q_incorrect_answer);
+            if (file.is_open()) {
+                file << data.dump(4);
+                file.close();
+            }else{
+                qDebug() << "questions.json can't write ... ";
             }
-            question.set_incorrect_answers(q_incorrect_answers);
         }
 
         curl_easy_cleanup(curl);
     }
-    return question;
 }

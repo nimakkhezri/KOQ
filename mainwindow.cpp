@@ -59,6 +59,33 @@ bool MainWindow::get_answers(const Question& question) {
     }
 }
 
+bool MainWindow::get_survival_answers(const Question& question) {
+    QString correct_answer = question.get_correct_answer();
+    if (ui->survival_op1_btn->isChecked()){
+        if (ui->survival_op1_btn->text() == correct_answer){
+            return true;
+        }
+    }
+    else if (ui->survival_op2_btn->isChecked()) {
+        if(ui->survival_op2_btn->text() == correct_answer) {
+            return true;
+        }
+    }
+    else if (ui->survival_op3_btn->isChecked()) {
+        if (ui->survival_op3_btn->text() == correct_answer) {
+            return true;
+        }
+    }
+    else if (ui->survival_op4_btn->isChecked()) {
+        if (ui->survival_op4_btn->text() == correct_answer) {
+            return true;
+        }
+    }
+    else {
+        return false;
+    }
+}
+
 void MainWindow::options_visibility(bool visibility) {
     if (visibility) {
         ui->pvp_op1_btn->show();
@@ -75,9 +102,20 @@ void MainWindow::options_visibility(bool visibility) {
 }
 
 void MainWindow::update_highscores() {
-    ui->easy_highscore->setText(QString::number(survivalgame.get_easy_record()));
-    ui->medium_highscore->setText(QString::number(survivalgame.get_medium_record()));
-    ui->hard_highscore->setText(QString::number(survivalgame.get_hard_record()));
+    ui->easy_highscore->setText(QString::number(survivalgame.get_easy_record().get_score()));
+    ui->medium_highscore->setText(QString::number(survivalgame.get_medium_record().get_score()));
+    ui->hard_highscore->setText(QString::number(survivalgame.get_hard_record().get_score()));
+}
+
+void MainWindow::set_survival_question(const Question& question) {
+    ui->survival_question_showcase->setText(question.get_question());
+    ui->survival_category_showcase->setText(question.get_category().get_name());
+    ui->survival_difficulty_showcase->setText(question.get_difficulty());
+    QVector<QString> random_options = question.get_random_answers();
+    ui->survival_op1_btn->setText(random_options[0]);
+    ui->survival_op2_btn->setText(random_options[1]);
+    ui->survival_op3_btn->setText(random_options[2]);
+    ui->survival_op4_btn->setText(random_options[3]);
 }
 
 void MainWindow::on_pvp_btn_clicked()
@@ -211,6 +249,53 @@ void MainWindow::on_survival_start_btn_clicked()
         difficulty = "medium";
     } else if (ui->survival_hard_btn->isChecked()) {
         difficulty = "hard";
+    }
+    this->survivalgame.set_currentRecord(difficulty);
+    ui->survival_question_showcase->setText("You Selected '" + survivalgame.get_currentRecord()->get_name() + "' mode.\nYour last RECORD: " + QString::number(survivalgame.get_currentRecord()->get_score()) + "\nPlease Start!");
+    ui->survival_op1_btn->hide();
+    ui->survival_op2_btn->hide();
+    ui->survival_op3_btn->hide();
+    ui->survival_op4_btn->hide();
+    ui->last_record->setText(QString::number(survivalgame.get_currentRecord()->get_score()));
+    ui->survival_current_score->setText(QString::number(survivalgame.get_roundScore()));
+    ui->health->setText(QString::number(survivalgame.get_health()));
+    survivalgame.api.get_questions(difficulty);
+    survivalgame.load_questions();
+    int currentIndex = ui->stackedWidget->currentIndex();
+    ui->stackedWidget->setCurrentIndex(currentIndex + 1);
+}
+
+
+void MainWindow::on_survival_next_btn_clicked()
+{
+    clicked++;
+    if (clicked == 1) {
+        ui->survival_op1_btn->show();
+        ui->survival_op2_btn->show();
+        ui->survival_op3_btn->show();
+        ui->survival_op4_btn->show();
+        ui->survival_next_btn->setText("Next");
+    }
+    Question currentQuestion = survivalgame.get_questions()[clicked - 1];
+    if (clicked > 1) {
+        Question lastQuestion = survivalgame.get_questions()[clicked - 2];
+        survivalgame.check_answer(get_survival_answers(lastQuestion));
+    }
+    set_survival_question(currentQuestion);
+    ui->health->setText(QString::number(survivalgame.get_health()));
+    ui->survival_current_score->setText(QString::number(survivalgame.get_roundScore()));
+
+    if (survivalgame.is_endGame()) {
+        if (survivalgame.is_newRecord()){
+            QMessageBox::information(this, "Game over", "Game over!\nYou have a New RECORD: " + QString::number(survivalgame.get_currentRecord()->get_score()));
+        } else {
+            QMessageBox::information(this, "Game over", "Game over!\nYou don't have a new record!\nYour last Record: " + QString::number(survivalgame.get_currentRecord()->get_score()));
+        }
+        survivalgame.reset();
+        survivalgame.save_records();
+        this->clicked = 0;
+        int currentIndex = ui->stackedWidget->currentIndex();
+        ui->stackedWidget->setCurrentIndex(currentIndex - 6);
     }
 
 }

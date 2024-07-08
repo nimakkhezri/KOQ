@@ -2,63 +2,423 @@
     "response_code": 0,
     "results": [
         {
-            "category": "Entertainment: Television",
-            "correct_answer": "George Clooney",
-            "difficulty": "hard",
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Disguiser",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Matthew Perry",
-                "Dennis Miller",
-                "Pierce Brosnan"
+                "Escort",
+                "Lookout",
+                "Transporter"
             ],
-            "question": "Which of these voices wasn&#039;t a choice for the House AI in &quot;The Simpsons Treehouse of Horror&quot; short, House of Whacks?",
+            "question": "Which of these roles in Town of Salem is mafia?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "2004",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "2006",
+                "2005",
+                "2002"
+            ],
+            "question": "In which year did the first Monster Hunter game get released?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Dawngate",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Strife",
+                "League of Legends",
+                "Heroes of Newerth"
+            ],
+            "question": "What former MOBA, created by Waystone Games and published by EA, was shut down in 2014?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Television",
-            "correct_answer": "Slipping off a cliff, and nearly drowning in icy water",
-            "difficulty": "hard",
+            "correct_answer": "7 Meters",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Crash landing when arriving at Keflav&iacute;k airport",
-                "A minor car accident in a snowstorm",
-                "Being served under-cooked chicken at his hotel"
+                "10 Meters",
+                "2 Meters",
+                "5 Meters"
             ],
-            "question": "In 2008, British celebrity chef Gordon Ramsay believes he almost died after suffering what accident in Iceland while filming?",
+            "question": "In the original Doctor Who series (1963), fourth doctor Tom Baker&#039;s scarf was how long?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Cartoon &amp; Animations",
+            "correct_answer": "Steven Universe",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Regular Show",
+                "Adventure Time",
+                "The Amazing World of Gumball"
+            ],
+            "question": "What Cartoon Network show aired its first episode on November 4th, 2013?",
+            "type": "multiple"
+        },
+        {
+            "category": "General Knowledge",
+            "correct_answer": "Kilt",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Skirt",
+                "Dress",
+                "Rhobes"
+            ],
+            "question": "Which item of clothing is usually worn by a Scotsman at a wedding?",
+            "type": "multiple"
+        },
+        {
+            "category": "Vehicles",
+            "correct_answer": "Lamborghini",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Ferrari",
+                "Pagani",
+                "Bugatti"
+            ],
+            "question": "Which car manufacturer created the &quot;Aventador&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "General Knowledge",
+            "correct_answer": "Hairy",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Rude",
+                "Funny",
+                "Tall"
+            ],
+            "question": "What is the defining characteristic of someone who is described as hirsute?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Computers",
+            "correct_answer": "10 Gb/s",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "5 Gb/s",
+                "8 Gb/s",
+                "1 Gb/s"
+            ],
+            "question": "How fast is USB 3.1 Gen 2 theoretically?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Half-Life",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Counter Strike: Source",
+                "Half-Life 2",
+                "It&#039;s a stand alone game, not a mod"
+            ],
+            "question": "What is the mod &quot;Cry of Fear&quot; based off of?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Board Games",
+            "correct_answer": "Overlay at least 2 Monsters of the Same Level",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Activate a Spell and Send Monsters to the Graveyard",
+                "Add the Monsters&#039; Levels Together to Match the Xyz Monster",
+                "Banish A Number of Monsters From Your Hand And Deck"
+            ],
+            "question": "In Yu-Gi-Oh, how does a player perform an Xyz Summon?",
+            "type": "multiple"
+        },
+        {
+            "category": "Animals",
+            "correct_answer": "Ursus Maritimus",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Polar Bear",
+                "Ursus Spelaeus",
+                "Ursus Arctos"
+            ],
+            "question": "What is the scientific name for the &quot;Polar Bear&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Gadgets",
+            "correct_answer": "Challenger and Columbia",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Enterprise and Atlantis",
+                "Discovery and Endeavour",
+                "None of the Above"
+            ],
+            "question": "Out of all of the NASA Space Shuttles, which 2 have been destroyed in disasters?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Film",
+            "correct_answer": "Romani Ite Domum",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Romans Go Home",
+                "Roxani Ite Domum",
+                "Tomate Ite Domum"
+            ],
+            "question": "What is the correct phrase for the Latin saying &quot;Romanes Eunt Domus&quot; in Monty Python&#039;s Life of Brian?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science &amp; Nature",
+            "correct_answer": "Gustatory Perception",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Olfaction",
+                "Somatosensation",
+                "Auditory Perception"
+            ],
+            "question": "What is the scientific term for &#039;taste&#039;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Computers",
+            "correct_answer": "Assembly",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Python",
+                "C#",
+                "Pascal"
+            ],
+            "question": "Which of these programming languages is a low-level language?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Television",
-            "correct_answer": "Christopher Eccleston",
-            "difficulty": "hard",
+            "correct_answer": "74",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "David Tennant",
-                "Matt Smith",
-                "Tom Baker"
+                "88",
+                "49",
+                "62"
             ],
-            "question": "Which of the following actors portrayed the Ninth Doctor in the British television show &quot;Doctor Who&quot;?",
+            "question": "How long was Ken Jennings&#039; win streak on Jeopardy?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Popopo",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Dedede",
+                "Waddle Dee",
+                "Prince Puff"
+            ],
+            "question": "What was the character Kirby originally going to be named?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Music",
+            "correct_answer": "NGHTMRE",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "LOUDPVCK",
+                "KRNE",
+                "DVBBS"
+            ],
+            "question": "Which artist collaborated with American DJ Dillon Francis to release the song 2016 &quot;Need You&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Green Flu",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Yellow Fever",
+                "T-Virus",
+                "Raspberry Sniffles"
+            ],
+            "question": "In Left 4 Dead, what is the name of the virus, as designated by CEDA, that causes most humans to turn into the Infected?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Japanese Anime &amp; Manga",
+            "correct_answer": "Different Gender",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Different Body Proportions",
+                "Different Backstory",
+                "Different Appearance"
+            ],
+            "question": "How does the character Dragowizard, Qinus Axia&#039;s from the anime &quot;Buddyfight&quot; differ between the Japanese and English dubs?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Music",
+            "correct_answer": "Andreas Vollenweider",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Jean-Michel Jarre",
+                "Bing Crosby",
+                "Enya"
+            ],
+            "question": "Who recorded the album called &quot;Down to the Moon&quot; in 1986?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Metal Gear Solid V",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Tom Clancy&#039;s The Division",
+                "Killing Floor 2",
+                "Hitman"
+            ],
+            "question": "Which one of these games wasn&#039;t released in 2016?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Nissan Skyline GT-R (R34)",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Mazda RX-7 FD3S",
+                "Acura Integra Type R",
+                "Subaru Impreza 2.5 RS"
+            ],
+            "question": "In Need for Speed: Underground, what car does Eddie drive?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Japanese Anime &amp; Manga",
+            "correct_answer": "Jotaro Kujo",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Giorno Giovanna",
+                "Joseph Joestar",
+                "Josuke Higashikata"
+            ],
+            "question": "In the series JoJo&#039;s Bizarre Adventure, which main character makes the greatest number of recurring appearances?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "March 1986",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "April 1990",
+                "June 2001",
+                "August 1956"
+            ],
+            "question": "When was the video game publisher &quot;Ubisoft&quot; founded ?",
+            "type": "multiple"
+        },
+        {
+            "category": "Sports",
+            "correct_answer": "James Rodr&iacute;guez",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Thomas M&uuml;ller",
+                "Lionel Messi",
+                "Neymar"
+            ],
+            "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Film",
+            "correct_answer": "Benjamin Franklin Gates",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Thomas Jefferson Walker",
+                "George Washington Swanson",
+                "John Quincy Beckett"
+            ],
+            "question": "What is the name of the character Nicolas Cage plays in the movie &quot;National Treasure?&quot;",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Raigor Stonehoof",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Banehallow Ambry",
+                "Carl",
+                "Barathrum"
+            ],
+            "question": "In Dota 2, what is Earthshaker&#039;s real name?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Television",
-            "correct_answer": "Amanda Barrie",
-            "difficulty": "hard",
+            "correct_answer": "Steven Moffatt",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Sue Nicholls",
-                "Violet Carson",
-                "Jean Alexander"
+                "Phil Ford",
+                "Russell T Davies",
+                "Toby Whithouse"
             ],
-            "question": "Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?",
+            "question": "Which British writer wrote for both Doctor Who and Sherlock?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Television",
-            "correct_answer": "Hors d&#039;oeuvre",
-            "difficulty": "hard",
+            "category": "General Knowledge",
+            "correct_answer": "Belgium",
+            "difficulty": "medium",
             "incorrect_answers": [
-                "Racht",
-                "Gagh",
-                "Bloodwine"
+                "Netherlands",
+                "France",
+                "USA"
             ],
-            "question": "Which of these in the Star Trek series is NOT Klingon food?",
+            "question": "Which country has the most Trappist breweries?",
+            "type": "multiple"
+        },
+        {
+            "category": "Mythology",
+            "correct_answer": "New Zealand",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Vanuatu",
+                "Fiji",
+                "Hawaii"
+            ],
+            "question": "The Maori hold that which island nation was founded by Kupe, who discovered it under a long white cloud?",
+            "type": "multiple"
+        },
+        {
+            "category": "Celebrities",
+            "correct_answer": "Bobby Shmurda",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "DJ Snake",
+                "Swae Lee",
+                "Young Thug"
+            ],
+            "question": "In 2014, this new top 100 rapper who featured in &quot;Computers&quot; and &quot;Body Dance&quot; was arrested in a NYPD sting for murder.",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Greenheart Games",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Greenland Games",
+                "The Tycoonists",
+                "MomCorp"
+            ],
+            "question": "Which company developed and published Game Dev Tycoon?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Computers",
+            "correct_answer": "Jelly Bean",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Lollipop",
+                "Nutella",
+                "Froyo"
+            ],
+            "question": "What was the name given to Android 4.3?",
             "type": "multiple"
         }
     ]

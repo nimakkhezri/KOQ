@@ -34,6 +34,8 @@ private slots:
 
     void on_survival_start_btn_clicked();
 
+    void on_survival_next_btn_clicked();
+
 private:
     int clicked;
     PVPGame pvpgame;
@@ -42,7 +44,9 @@ private:
     void set_options(const Question& question);
     void set_currentQuestion(const Question& question);
     bool get_answers(const Question& question);
+    bool get_survival_answers(const Question& question);
     void options_visibility(bool visibility);
     void update_highscores();
+    void set_survival_question(const Question& question);
 };
 #endif // MAINWINDOW_H

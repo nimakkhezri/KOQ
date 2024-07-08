@@ -23,7 +23,7 @@ public:
 
     void get_questions(const Category& category,const QString& difficulty);
     void get_questions();
-    Question get_question(const QString& difficulty);
+    void get_questions(const QString& difficulty);
 };
 
 #endif // TRIVIAAPI_H
