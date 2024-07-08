@@ -2,63 +2,63 @@
     "response_code": 0,
     "results": [
         {
-            "category": "General Knowledge",
-            "correct_answer": "Omega",
-            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "correct_answer": "George Clooney",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Mu",
-                "Epsilon",
-                "Kappa"
+                "Matthew Perry",
+                "Dennis Miller",
+                "Pierce Brosnan"
             ],
-            "question": "What is the last letter of the Greek alphabet?",
+            "question": "Which of these voices wasn&#039;t a choice for the House AI in &quot;The Simpsons Treehouse of Horror&quot; short, House of Whacks?",
             "type": "multiple"
         },
         {
-            "category": "General Knowledge",
-            "correct_answer": "Pomodoro",
-            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "correct_answer": "Slipping off a cliff, and nearly drowning in icy water",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Aglio",
-                "Cipolla",
-                "Peperoncino"
+                "Crash landing when arriving at Keflav&iacute;k airport",
+                "A minor car accident in a snowstorm",
+                "Being served under-cooked chicken at his hotel"
             ],
-            "question": "What is the Italian word for &quot;tomato&quot;?",
+            "question": "In 2008, British celebrity chef Gordon Ramsay believes he almost died after suffering what accident in Iceland while filming?",
             "type": "multiple"
         },
         {
-            "category": "General Knowledge",
-            "correct_answer": "Peace",
-            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "correct_answer": "Christopher Eccleston",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Physics",
-                "Economics",
-                "Physiology/Medicine"
+                "David Tennant",
+                "Matt Smith",
+                "Tom Baker"
             ],
-            "question": "Linus Pauling, one of the only winners of multiple Nobel Prizes, earned his Nobel Prizes in Chemistry and what?",
+            "question": "Which of the following actors portrayed the Ninth Doctor in the British television show &quot;Doctor Who&quot;?",
             "type": "multiple"
         },
         {
-            "category": "General Knowledge",
-            "correct_answer": "Southeast",
-            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "correct_answer": "Amanda Barrie",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Southwest",
-                "Northwest",
-                "Northeast"
+                "Sue Nicholls",
+                "Violet Carson",
+                "Jean Alexander"
             ],
-            "question": "What direction does the Statue of Liberty face?",
+            "question": "Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?",
             "type": "multiple"
         },
         {
-            "category": "General Knowledge",
-            "correct_answer": "Aquarius",
-            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "correct_answer": "Hors d&#039;oeuvre",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Pisces",
-                "Capricorn",
-                "Scorpio"
+                "Racht",
+                "Gagh",
+                "Bloodwine"
             ],
-            "question": "What is the star sign of someone born on Valentines day?",
+            "question": "Which of these in the Star Trek series is NOT Klingon food?",
             "type": "multiple"
         }
     ]

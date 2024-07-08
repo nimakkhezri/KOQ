@@ -152,3 +152,8 @@ bool PVPGame::is_endGame() {
         return false;
     }
 }
+
+void PVPGame::reset() {
+    this->currentRound = 1;
+    this->currentTurn = 1;
+}

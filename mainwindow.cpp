@@ -168,6 +168,7 @@ void MainWindow::on_pvp_nextround_btn_clicked()
     if (pvpgame.is_endGame()) {
         int currentIndex = ui->stackedWidget->currentIndex();
         ui->stackedWidget->setCurrentIndex(currentIndex - 4);
+        pvpgame.reset();
     }
     else if (pvpgame.is_goldenRound()) {
         pvpgame.api.get_questions();

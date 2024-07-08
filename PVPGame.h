@@ -36,6 +36,7 @@ public:
     Player get_game_winner();
     QVector<Question> get_currentQuestions() const;
     bool is_endGame();
+    void reset();
 
     Player get_player1() const;
     Player get_player2() const;
